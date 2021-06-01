@@ -1,5 +1,60 @@
+body,
+body * {
+margin: 0;
+padding: 0;
+vertical-align: top;
+box-sizing: border-box;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body {
 }
+
+/*
+"Reset rules": {
+    "prefix": "reset",
+    "body": [
+        "body,",
+        "body * {",
+        "\tmargin: 0;",
+        "\tpadding: 0;",
+        "\tvertical-align: top;",
+        "\tbox-sizing: border-box;",
+        "\tfont-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;",
+        "}"
+    ]
+},
+"Mini CSS reset rules": {
+    "prefix": "teve",
+    "body": [
+        "body,",
+        "body * {",
+        "\tmargin: 0;",
+        "\tpadding: 0;",
+        "\tvertical-align: top;",
+        "\tbox-sizing: border-box;",
+        "\tfont-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;",
+        "}"
+    ]
+},
+"Sventa Marija": {
+    "prefix": "marija",
+    "body": [
+        "display: inline-block;",
+        "float: left;",
+        "width: 100%;"
+    ]
+},
+"Centriukas": {
+    "prefix": "centriukas",
+    "body": [
+        "position: absolute;",
+        "top: 50%;",
+        "left: 50%;",
+        "transform: translate(-50%, -50%);"
+    ]
+}
+*/
 
 main {
  display: inline-block;
@@ -9,8 +64,9 @@ main {
 }
 
 .left-column {
- width: 40%;
+ width: calc(40% - 120px);
  float: left;
+ padding: 40px;
  background-color: yellow;
 }
 
@@ -27,12 +83,24 @@ main {
 }
 
 .right-column {
+    box-sizing: border-box;
     width: 60%;
     float: left;
+    padding: 40px;
+    border: 20px solid black;
     background-color: pink;
  }
 
 .close {
 }
-
-
+/*
+.mouse {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: -20px -20px 0 10px #fff, 30px, -20px 0 20 px #fff, 0 0 0 80 px, #000, -80px 0 40px #000;
+}
+/*
