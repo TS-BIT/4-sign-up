@@ -64,10 +64,14 @@ main {
 }
 
 .left-column {
- width: calc(40% - 120px);
+ width: 40%;
  float: left;
  padding: 40px;
- background-color: yellow;
+ background-color: #4232a0;
+ background-image: url(../img/hill.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
 }
 
 .bottom-links {
