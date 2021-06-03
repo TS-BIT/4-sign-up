@@ -1,0 +1,12 @@
+Kelio rasymas:
+css/main.css        (kelias pradedant nuo domeno)
+/css/main.css       (kelias pradedant root direktorija/folderiu)
+./css/main.css      (kelias is esamos vietos lenda gilyn)
+../css/main.css     (kelias grizta vienu leveliu (lygiu) atgal)
+
+
+
+
+https://
+
+http://127.0.0.1:5500/

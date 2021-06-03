@@ -5,14 +5,15 @@
     width: 100%;
 }
 .form-row {
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    margin-top: 60px;
 }
 .form-row.flex-row {
     flex-direction: row;
+    gap: 25px;
+}
 
 /* .form-row + .form-row {
     margin-top: 40px;
@@ -23,6 +24,7 @@
     font-size: 14px;
     }
 .form-row> input {
+    line-height: 40px;
     font-size: 20px;
     border: none;
     border-bottom: 1px solid #ccc;
